@@ -11,7 +11,8 @@ class Categoria(models.Model):
 class Conta(models.Model):
     banco_choices = (
         ('NU', 'Nubank'),
-        ('CE', 'Caixa econômica'),
+        ('MP', 'Mercado pago'),
+        ('IN', 'Inter')
     )
 
     tipo_choices = (
